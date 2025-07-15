@@ -1,4 +1,4 @@
-#version 460 core
+#version 460
 
 #import <sodium:include/fog.glsl>
 #import <sodium:include/chunk_vertex.glsl>
