@@ -7,15 +7,22 @@
           55
         ],
         "directory": "sodium-1.21"
+      },
+      {
+        "formats": [
+          63,
+          2147483647
+        ],
+        "directory": "sodium-1.21.6"
       }
     ]
   },
   "pack": {
     "supported_formats": {
-      "min_inclusive": 15,
+      "min_inclusive": 32,
       "max_inclusive": 2147483647
     },
-    "pack_format": 18,
+    "pack_format": 32,
     "description": {
       "text": "By §2MrGlitchDogePE§r§f§r for\n§a1.21+§r §ecompatible with§r §eSodium§r"
     }
