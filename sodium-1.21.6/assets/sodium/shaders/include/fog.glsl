@@ -2,8 +2,8 @@ const int FOG_SHAPE_SPHERICAL = 0;
 const int FOG_SHAPE_CYLINDRICAL = 1;
 
 float linear_fog_value(float vertexDistance, float fogStart, float fogEnd) {
-    fogStart /= 5.5760206435861583407010279338651;
-    fogEnd *= 1.03;
+    fogStart /=3;
+    fogEnd *=1.03;
     if (vertexDistance <= fogStart) {
         return 0.0;
     } else if (vertexDistance >= fogEnd) {
