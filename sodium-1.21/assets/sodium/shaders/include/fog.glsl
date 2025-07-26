@@ -14,8 +14,7 @@ float getFragDistance(int fogShape, vec3 position) {
 
 vec4 _linearFog(vec4 fragColor, float fragDistance, vec4 fogColor, float fogStart, float fogEnd) {
 #ifdef USE_FOG
-    fogStart /= 2.31;
-    fogEnd *= 1.03;
+    fogStart /=3;
 
     if (fragDistance <= fogStart) {
         return fragColor;
