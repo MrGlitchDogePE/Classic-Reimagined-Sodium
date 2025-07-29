@@ -55,7 +55,7 @@ void _vert_init() {
     _vert_tex_diffuse_coord = _get_texcoord();
     _vert_tex_diffuse_coord_bias = _get_texcoord_bias();
 
-    // ✅ Translated texel snapping logic from Vanilla Minecraft
+    // Translated texel snapping logic from Vanilla Minecraft
     vec2 raw_light_uv = vec2(a_LightAndData.xy);
     vec2 normalized = raw_light_uv / vec2(255.0, 247.0);
     vec2 texel_center = floor(normalized * 16.0) / 16.0 + vec2(0.5) / 16.0;
