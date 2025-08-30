@@ -6,6 +6,8 @@
           32,
           55
         ],
+        "min_format": 32,
+        "max_format": 55,
         "directory": "sodium-1.21"
       },
       {
@@ -13,6 +15,8 @@
           63,
           2147483647
         ],
+        "min_format": 63,
+        "max_format": 2147483647,
         "directory": "sodium-1.21.6"
       }
     ]
@@ -23,6 +27,8 @@
       "max_inclusive": 2147483647
     },
     "pack_format": 32,
+    "min_format": 32,
+    "max_format": 2147483647,
     "description": {
       "text": "By §2MrGlitchDogePE§r§f§r for\n§a1.21+§r §ecompatible with§r §eSodium§r"
     }
